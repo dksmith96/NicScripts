@@ -24,41 +24,44 @@ $xmlContents = @"
       </channels>
       <types>
         <int>1</int>
+          <!--Error-->
         <int>2</int>
+          <!--Warning-->
         <int>4</int>
+          <!--Information-->
       </types>
       <sources />
       <eventIDs>
         <string>1102</string>
-        <!--Security Log Cleared -->
+          <!--Security Log Cleared -->
         <string>4624</string>
-        <!--Successful Logon-->
+          <!--Successful Logon-->
         <string>4625</string>
-        <!--Failed Logon-->
+          <!--Failed Logon-->
         <string>4648</string>
-        <!--Logon Attempt with Explicit Credentials-->
+          <!--Logon Attempt with Explicit Credentials-->
         <string>4675</string>
-        <!--Privileged Account Logon-->
+          <!--Privileged Account Logon-->
         <string>4720</string>
-        <!--User Account Created-->
+          <!--User Account Created-->
         <string>4722</string>
-        <!--User Account Enabled-->
+          <!--User Account Enabled-->
         <string>4723</string>
-        <!--User Attempted to Change Password-->
+          <!--User Attempted to Change Password-->
         <string>4724</string>
-        <!--Privileged User Attempted to Reset Password-->
+          <!--Privileged User Attempted to Reset Password-->
         <string>4725</string>
-        <!--User Account Disabled-->
+          <!--User Account Disabled-->
         <string>4726</string>
-        <!--User Account Deleted-->
+          <!--User Account Deleted-->
         <string>4732</string>
-        <!--A User Was Added to a Privileged Group-->
+          <!--A User Was Added to a Privileged Group-->
         <string>4740</string>
-        <!--User Account Has Been Locked Out-->
+          <!--User Account Has Been Locked Out-->
         <string>4771</string>
-        <!--Kerberos Pre-Authentication Failed-->
+          <!--Kerberos Pre-Authentication Failed-->
         <string>4776</string>
-        <!--NTLM Authentication Attempt-->
+          <!--NTLM Authentication Attempt-->
       </eventIDs>
       <categories />
       <keywords />
@@ -77,13 +80,18 @@ $xmlContents = @"
       </channels>
       <types>
         <int>1</int>
+          <!--Error-->
         <int>2</int>
+          <!--Warning-->
         <int>4</int>
+          <!--Information-->
       </types>
       <sources />
       <eventIDs>
         <string>3000</string>
+          <!--Microsoft Defender Real-Time Protection Availability-->
         <string>1500</string>
+          <!--User Profile Service Error->
       </eventIDs>
       <categories />
       <keywords />
@@ -103,14 +111,20 @@ $xmlContents = @"
       </channels>
       <types>
         <int>1</int>
+          <!--Error-->
         <int>2</int>
+          <!--Warning-->
         <int>4</int>
+          <!--Information-->
       </types>
       <sources />
       <eventIDs>
         <string>500</string>
+          <!--Microsoft-Windows-DistributedCOM Error-->
         <string>2048</string>
+          <!--User Profile Service Error-->
         <string>1014</string>
+          <!--DNS Client Events Failure-->
       </eventIDs>
       <categories />
       <keywords />
